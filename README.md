@@ -17,6 +17,13 @@ Find leaked emails with your passwords.
 
 #### Installation
 
+Install dependencies (Kali):
+```
+sudo apt install python3-socks python3-texttable python3-docopt python3-requests
+git clone https://github.com/decoxviii/karma.git
+./karma/bin/karma --help
+```
+
 Install dependencies (Debian/Ubuntu):
 ```
 sudo apt install tor python3 python3-pip
