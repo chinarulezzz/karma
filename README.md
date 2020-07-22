@@ -10,10 +10,16 @@
 
 ---
 
+##### About
+
+This is the fork of the decoxvii's karma. )
+
+The sources and the author's GitHub profile was removed.
+So... I've adopted karma by the same name.
+
 ##### API: pwndb2am4tzkvold (dot) onion
 
 Find leaked emails with your passwords.
-Adopt `decoxviii`'s karma.
 
 ---
 
