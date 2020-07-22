@@ -1,10 +1,11 @@
 
 <p align="center">
-    <img alt="karma" src="https://i.imgur.com/C3zISlU.gif"/>
-    <p align="center">
-        <a href="https://github.com/decoxviii/karma/releases/latest"><img alt="Release" src="https://img.shields.io/github/tag/decoxviii/karma.svg"></a>
-        <a href="https://twitter.com/decoxviii"><img alt="twitter" src="https://img.shields.io/badge/twitter-@decoxviii-blue.svg"></a>
-    </p>
+ <img alt="karma" src="https://i.imgur.com/C3zISlU.gif"/>
+ <p align="center">
+  <a href="https://github.com/chinarulezzz/karma/releases/latest">
+   <img alt="Release" src="https://img.shields.io/github/tag/chinarulezzz/karma.svg">
+  </a>
+ </p>
 </p>
 
 ---
@@ -12,17 +13,21 @@
 ##### API: pwndb2am4tzkvold (dot) onion
 
 Find leaked emails with your passwords.
+Adopt `decoxviii`'s karma.
 
 ---
 
-#### Installation
+#### Run without installation
 
-Install dependencies (Kali):
+Install runtime dependencies (Kali/Debian/Ubuntu):
 ```
-sudo apt install python3-socks python3-texttable python3-docopt python3-requests
-git clone https://github.com/decoxviii/karma.git
+sudo apt install tor python3 python3-socks python3-texttable python3-docopt python3-requests
+git clone https://github.com/chinarulezzz/karma.git
+sudo service tor start
 ./karma/bin/karma --help
 ```
+
+#### Installation
 
 Install dependencies (Debian/Ubuntu):
 ```
@@ -31,7 +36,7 @@ sudo apt install tor python3 python3-pip
 
 Install with `pip3`:
 ```
-sudo -H pip3 install git+https://github.com/decoxviii/karma.git
+sudo -H pip3 install git+https://github.com/chinarulezzz/karma.git
 karma --help
 ```
 
@@ -41,7 +46,8 @@ karma --help
 
 Clone this repository, and:
 ```
-git clone https://github.com/decoxviii/karma.git ; cd karma
+git clone https://github.com/chinarulezzz/karma.git
+cd karma
 sudo -H pip3 install -r requirements.txt
 python3 setup.py build
 sudo python3 setup.py install
@@ -53,7 +59,7 @@ sudo python3 setup.py install
 
 To update this tool to the latest version, run:
 ```
-sudo -H pip3 install git+https://github.com/decoxviii/karma.git --upgrade
+sudo -H pip3 install git+https://github.com/chinarulezzz/karma.git --upgrade
 karma --version
 ```
 
@@ -61,7 +67,9 @@ karma --version
 
 #### Usage
 
-Start by printing the available actions by running `karma --help`. It's also necessary to restart the **Tor** service `sudo service tor restart`. Then you can perform the following tests:
+Start by printing the available actions by running `karma --help`.
+It's also necessary to restart the **Tor** service `sudo service tor restart`.
+Then you can perform the following tests:
 
 1. Search emails with the password: `123456789`
 ```
@@ -87,11 +95,17 @@ karma target 'johndoe@unknown.com' -o test4
 
 #### Disclaimer
 
-Usage this program for attacking targets without prior consent is illegal. It's the end user's responsibility to obey allapplicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+Usage this program for attacking targets without prior consent is illegal.
+It's the end user's responsibility to obey all applicable local, state and
+federal laws. Developers assume no liability and are not responsible for any
+misuse or damage caused by this program.
 
 ---
 
 #### Thanks
+
+The original author:
++ decoxviii
 
 This program is inspired by the projects:
 + [pwndb_api](https://github.com/M3l0nPan/pwndb_api) by: M3l0nPan
@@ -99,6 +113,6 @@ This program is inspired by the projects:
 
 ---
 
-**decoxviii**
+© **decoxviii**
 
-**[MIT](https://github.com/decoxviii/karma/blob/master/LICENSE)**
+**[MIT](https://github.com/chinarulezzz/karma/blob/master/LICENSE)**
