@@ -105,7 +105,7 @@ misuse or damage caused by this program.
 #### Thanks
 
 The original author:
-+ decoxviii
++ Sergio SA (decoxviii)
 
 This program is inspired by the projects:
 + [pwndb_api](https://github.com/M3l0nPan/pwndb_api) by: M3l0nPan
@@ -113,6 +113,6 @@ This program is inspired by the projects:
 
 ---
 
-© **decoxviii**
+© Sergio SA (decoxviii)
 
 **[MIT](https://github.com/chinarulezzz/karma/blob/master/LICENSE)**
