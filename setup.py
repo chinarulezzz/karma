@@ -26,7 +26,7 @@ setup(
     long_description    = long_description,
     author              = __author__,
     author_email        = __email__,
-    url                 = 'https://github.com/decoxviii/karma',
+    url                 = 'https://github.com/chinarulezzz/karma',
     packages            = find_packages(),
     scripts             = ['bin/karma'],
     license             = __license__,
